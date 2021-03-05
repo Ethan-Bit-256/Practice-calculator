@@ -1,0 +1,12 @@
+print('CALCULATOR BY ROUK')
+
+fig_1 = input('Enter the first figure: ')
+fig_2 = input('Enter the second figure: ')
+sum = (float(fig_1) + float(fig_2))
+print('If you add the numbers the result is ' + str(sum))
+sub = (float(fig_1) - float(fig_2))
+print('If you subtract the numbers the result is ' + str(sub))
+mult = (float(fig_1) * float(fig_2))
+print('If you multiply these numbers the result is ' + str(mult))
+div = (float(fig_1) / float(fig_2))
+print('If you divide these numbers the result is ' + str(div))
